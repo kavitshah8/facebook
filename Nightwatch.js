@@ -21,7 +21,8 @@ module.exports = {
         browserName: 'chrome',
         javascriptEnabled: true,
         acceptSslCerts: true
-      }
+      },
+      globals: require('./data/local')
     }
   }
 };
